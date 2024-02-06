@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_layout_missions",
+  "info": {
+    "displayName": "mission",
+    "icon": "check"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true,
+      "default": "my mission"
+    },
+    "content": {
+      "type": "text",
+      "required": true
+    },
+    "showLogo": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    }
+  }
+}
